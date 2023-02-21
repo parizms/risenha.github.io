@@ -41,4 +41,4 @@ my_upload = st.sidebar.file_uploader("Upload Gambar", type=["png", "jpg", "jpeg"
 if my_upload is not None:
     fix_image(upload=my_upload)
 else:
-    fix_image("./poto.png")
+    fix_image("poto.png")
