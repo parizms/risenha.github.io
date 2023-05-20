@@ -42,3 +42,13 @@ if my_upload is not None:
     fix_image(upload=my_upload)
 else:
     fix_image("poto.png")
+    
+    
+    hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
