@@ -42,5 +42,3 @@ if my_upload is not None:
     fix_image(upload=my_upload)
 else:
     fix_image("poto.png")
-    
-    
